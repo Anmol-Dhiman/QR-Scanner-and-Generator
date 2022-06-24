@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/QrCodeScannerGenerator/app/src/main/res/drawable/bottom_nav.xml" value="0.3675" />
+        <entry key="..\:/QrCodeScannerGenerator/app/src/main/res/drawable/bottom_nav_button.xml" value="0.334" />
+        <entry key="..\:/QrCodeScannerGenerator/app/src/main/res/drawable/bottom_nav_buttons.xml" value="0.1515" />
+        <entry key="..\:/QrCodeScannerGenerator/app/src/main/res/drawable/download_button.xml" value="0.2025" />
+        <entry key="..\:/QrCodeScannerGenerator/app/src/main/res/drawable/generate_button.xml" value="0.2335" />
+        <entry key="..\:/QrCodeScannerGenerator/app/src/main/res/drawable/ic_download_image.xml" value="0.1515" />
+        <entry key="..\:/QrCodeScannerGenerator/app/src/main/res/drawable/ic_launcher_background.xml" value="0.334" />
+        <entry key="..\:/QrCodeScannerGenerator/app/src/main/res/drawable/ic_rectangle.xml" value="0.266" />
+        <entry key="..\:/QrCodeScannerGenerator/app/src/main/res/drawable/ic_scaning.xml" value="0.247" />
+        <entry key="..\:/QrCodeScannerGenerator/app/src/main/res/drawable/ic_scanning.xml" value="0.247" />
+        <entry key="..\:/QrCodeScannerGenerator/app/src/main/res/drawable/ic_splash_below.xml" value="0.247" />
+        <entry key="..\:/QrCodeScannerGenerator/app/src/main/res/drawable/input_box.xml" value="0.22" />
+        <entry key="..\:/QrCodeScannerGenerator/app/src/main/res/drawable/intro_button.xml" value="0.3675" />
+        <entry key="..\:/QrCodeScannerGenerator/app/src/main/res/drawable/scanner_image.xml" value="0.247" />
+        <entry key="..\:/QrCodeScannerGenerator/app/src/main/res/drawable/spalsh_background.xml" value="0.3255" />
+        <entry key="..\:/QrCodeScannerGenerator/app/src/main/res/drawable/splash_below.xml" value="0.247" />
+        <entry key="..\:/QrCodeScannerGenerator/app/src/main/res/drawable/splash_bottom_image.xml" value="0.22" />
+        <entry key="..\:/QrCodeScannerGenerator/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/QrCodeScannerGenerator/app/src/main/res/layout/activity_splash_screen.xml" value="0.33" />
+        <entry key="..\:/QrCodeScannerGenerator/app/src/main/res/layout/fragment_generate.xml" value="0.25" />
+        <entry key="..\:/QrCodeScannerGenerator/app/src/main/res/layout/fragment_scan.xml" value="0.33" />
+        <entry key="..\:/QrCodeScannerGenerator/app/src/main/res/layout/sample.xml" value="0.5" />
+        <entry key="..\:/QrCodeScannerGenerator/app/src/main/res/menu/bottom_nav_men.xml" value="0.36666666666666664" />
+        <entry key="..\:/QrCodeScannerGenerator/app/src/main/res/menu/bottom_nav_menu.xml" value="0.32222222222222224" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

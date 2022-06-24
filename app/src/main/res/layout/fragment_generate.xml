@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Generate">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/fragmentBackground">
+
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/generateButton"
+            android:layout_width="280dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="32dp"
+            android:background="@drawable/generate_button"
+            android:text="@string/generate"
+            android:textColor="@color/black"
+            app:backgroundTint="@color/buttonColor"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.495"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/inputTextUrl" />
+
+        <EditText
+            android:id="@+id/inputTextUrl"
+            style="@style/inputBoxTheme"
+            android:layout_marginTop="32dp"
+            android:ems="10"
+            android:hint="Enter the Text/Url "
+            android:inputType="textPersonName"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.494"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/frameLayout2">
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/jpgDownloadButton"
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+                android:layout_marginRight="8dp"
+                android:background="@drawable/download_button"
+                android:gravity="center"
+                android:text="JPG"
+                android:textColor="@color/black"
+                app:backgroundTint="@color/buttonColor"
+                app:icon="@drawable/ic_download_image"
+                app:iconGravity="textStart"
+                app:iconPadding="10dp"
+                app:iconTint="@color/black" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/svgDownloadButton"
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="8dp"
+                android:background="@drawable/download_button"
+                android:gravity="center"
+                android:text="SVG"
+                android:textColor="@color/black"
+                app:backgroundTint="@color/svgButtonColor"
+                app:icon="@drawable/ic_download_image"
+                app:iconGravity="textStart"
+                app:iconPadding="10dp"
+                app:iconTint="@color/black"
+                app:layout_constraintStart_toEndOf="@+id/jpgDownloadButton"
+                app:layout_constraintTop_toBottomOf="@+id/imageView" />
+        </LinearLayout>
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_begin="20dp" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_begin="20dp" />
+
+
+        <FrameLayout
+            android:id="@+id/frameLayout2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/generateButton">
+
+            <TextView
+                android:id="@+id/text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:elevation="1dp"
+                android:text="Your code will appear here"
+                android:textAlignment="center"
+                android:textColor="@color/black">
+
+            </TextView>
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="230dp"
+                android:layout_height="250dp"
+                android:src="@drawable/ic_rectangle"
+                tools:layout_editor_absoluteX="58dp"
+                tools:layout_editor_absoluteY="224dp" />
+        </FrameLayout>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>
